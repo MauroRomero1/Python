@@ -1,0 +1,104 @@
+Constantes
+math.pi: Valor de π (pi), aproximadamente 3.14159.
+math.e: Base del logaritmo natural (Euler), aproximadamente 2.71828.
+math.tau: 2π, aproximadamente 6.28318.
+math.inf: Representa el infinito positivo.
+math.nan: Representa un valor "Not a Number" (NaN).
+Funciones básicas
+Redondeo y truncado:
+
+math.ceil(x): Redondea hacia arriba al entero más cercano.
+math.floor(x): Redondea hacia abajo al entero más cercano.
+math.trunc(x): Trunca el número eliminando la parte decimal.
+Valor absoluto:
+
+math.fabs(x): Retorna el valor absoluto de x.
+Suma precisa:
+
+math.fsum(iterable): Suma todos los elementos de un iterable con precisión.
+Funciones trigonométricas
+Ángulos en radianes:
+
+math.sin(x): Seno de x (en radianes).
+math.cos(x): Coseno de x (en radianes).
+math.tan(x): Tangente de x (en radianes).
+Ángulos inversos:
+
+math.asin(x): Arco seno de x.
+math.acos(x): Arco coseno de x.
+math.atan(x): Arco tangente de x.
+Conversión de grados/radianes:
+
+math.degrees(x): Convierte radianes a grados.
+math.radians(x): Convierte grados a radianes.
+Exponenciales y logaritmos
+Potencias:
+
+math.pow(x, y): Calcula 
+𝑥
+𝑦
+x 
+y
+ .
+math.sqrt(x): Raíz cuadrada de x.
+Exponenciales:
+
+math.exp(x): Calcula 
+𝑒
+𝑥
+e 
+x
+ .
+Logaritmos:
+
+math.log(x[, base]): Logaritmo de x en la base especificada (por defecto, base 
+𝑒
+e).
+math.log2(x): Logaritmo base 2 de x.
+math.log10(x): Logaritmo base 10 de x.
+Funciones de precisión
+Módulo flotante:
+math.fmod(x, y): Retorna el resto de 
+𝑥
+/
+𝑦
+x/y como un número flotante.
+Separar parte entera y fraccionaria:
+math.modf(x): Retorna una tupla con la parte fraccionaria y la parte entera de x.
+Funciones combinatorias
+Factorial:
+math.factorial(x): Calcula el factorial de un número entero no negativo.
+Combinaciones:
+math.comb(n, k): Calcula combinaciones de 
+𝑛
+n elementos tomados de 
+𝑘
+k en 
+𝑘
+k.
+Permutaciones:
+math.perm(n, k): Calcula permutaciones de 
+𝑛
+n elementos tomados de 
+𝑘
+k en 
+𝑘
+k.
+Funciones hiperbólicas
+Seno, coseno y tangente hiperbólicos:
+
+math.sinh(x): Seno hiperbólico de x.
+math.cosh(x): Coseno hiperbólico de x.
+math.tanh(x): Tangente hiperbólica de x.
+Inversas:
+
+math.asinh(x): Arco seno hiperbólico de x.
+math.acosh(x): Arco coseno hiperbólico de x.
+math.atanh(x): Arco tangente hiperbólica de x.
+Funciones especiales
+Cálculo del máximo común divisor:
+
+math.gcd(x, y): Máximo común divisor de x e y.
+Cálculo de la parte más cercana a una potencia de 2:
+
+math.isqrt(x): Devuelve la raíz cuadrada entera sin redondear.

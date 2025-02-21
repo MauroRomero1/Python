@@ -1,0 +1,1 @@
+# Uso de patrones de diseño (por ejemplo, Singleton, Factory, etc.).
